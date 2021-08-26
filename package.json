@@ -1,7 +1,8 @@
 {
     "name": "pop-dark",
-    "displayName": "Pop dark",
-    "description": "PopOs dark theme ",
+    "displayName": "Pop Cosmic",
+    "description": "PopOS dark theme",
+    "publisher": "boydmeyer",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.59.0"
@@ -9,10 +10,16 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "pop",
+        "popOS",
+        "dark",
+        "cosmic"
+    ],
     "contributes": {
         "themes": [
             {
-                "label": "Pop",
+                "label": "Pop Cosmic",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Pop-color-theme.json"
             }
